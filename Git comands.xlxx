@@ -1,17 +1,20 @@
 1/ creat a new terminal in vscode 
 
-2/ we starts with ls { it will list all the files or show everything }
+2/ creat a new repo on github
 
-3/ then cd to change directory to wherever your file located at. { cd " wherever location is the folder or file at }
+3/ we starts with ls { it will list all the files or show everything }
 
-4/ then git init to initailize everything { asdoukal }
+4/ then cd to change directory to wherever your file located at. { cd " wherever location is the folder or file at }
 
-5/ then git commit -m "whatever you want as a comment" {that is to commit the message}
+5/ then git init to initailize everything { asdoukal }
 
-6/ git remote origine ... { copier on the repo that you created} 
+6/ then git commit -m "whatever you want as a comment" {that is to commit the message}
 
-7/ git push origin master to push it into github 
+7/ git remote origine ... { copier on the repo that you created} 
 
-8/ if you want to add something to the same folder it just do git init and then git add . and git commit -m "", git push origin master
+8/ git push origin master to push it into github 
+
+9/ all that is wenever you send somthing to git the first time but,
+ if you want to add something to the same folder it just do git init and then git add . and git commit -m "", git push origin master
  
 
