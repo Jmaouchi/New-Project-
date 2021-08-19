@@ -1,0 +1,14 @@
+1/ we starts with ls { it will list all the files or show everything }
+
+2/ then cd to change directory to wherever your file located at. { cd " wherever location is the folder or file at }
+
+3/ then git init to initailize everything { asdoukal }
+
+4/ then git commit -m "whatever you want as a comment" {that is to commit the message}
+
+5/ git remote origine ... { copier on the repo that you created} 
+
+6/ git push origin master to push it into github 
+
+
+
