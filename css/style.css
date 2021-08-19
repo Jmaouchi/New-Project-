@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+ 
+}
+
+
+/*utilitie classes*/
+ ul li{
+  float: right;
+  display: flex;
+  margin-top: 0;
+  color: white;
+  
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-right: 30px;
+    margin-top: -20px;
+
+}
+
+li a:hover{
+    border-bottom: 2px solid mediumaquamarine;
+
+}
+
+.large-text{
+    font-size:20px ;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+h3{
+    color: white;
+    padding-top: 20px;
+    margin-left: 150px;
+
+}
+
+h1{
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 15px;  
+}
+
+h2{
+    font-size: 65px;
+    text-align: center;
+    font-weight: bold;
+    border: 10px inset #fff;
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    top: 50%;
+    left: 50%;
+    z-index: 5;
+    width: 500px;
+    margin-left: 70px;
+}
+
+span{
+    color: mediumturquoise;
+}
+
+/*Main Classes*/
+
+header{
+    background: url(../imgs/cod.jpg) no-repeat center center/ cover;
+    color:white;
+    
+}
+
+.header-first{
+    display: inline;
+}
+
+.header-first p{
+    margin-left: 150px;
+
+}
+
+.header-content{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+header .header-about{
+    display: flex;
+    flex-direction: column;
+    padding: 200px 60px ;
+}
+
+.header-pic img{
+    margin: 150px 100px;
+    border-radius: 50%;
+
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    
+}
+
+.header-about p{
+    color:black;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    margin: 35px 5px;
+    text-transform: uppercase;
+    background: linear-gradient(
+    mediumturquoise 15%,
+     white 50%
+     )
+}
+   
+   
+.button-click{
+    color: white;
+    text-decoration: none;
+    border: unset;
+    background: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0; 
+    outline: unset;
+    width: 90px;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 150px;
+    z-index: -1; /*i changed the z-index to -1 to hide the button, because i want to use the picture as a button and save this for latter needs*/
+}
+
+.header-about a img{
+    margin-left: 150px;
+    border-radius: 35%;
+    margin-top: -40px;
+}
+
+
+.button-click:hover{
+    background-color: mediumaquamarine;
+    border-radius: 15%;
+}
+
+
+
+/*Covers*/
+.sub-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 90px 40px; /*top/buttom and left/right*/
+    background:black;
+    color: white;
+
+}
+
+.sub-header-covers{
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+}
+
+.sub-header-covers > div {
+    height: 500px;
+    width: 300px;
+    /*this styling is for all the images*/
+    margin-left: 30px;
+}
+ 
+.sub-header-covers .cover-grad{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background:black;
+    
+}
+
+.sub-header-covers .cover-1{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)),url(../imgs/alg.jpg) no-repeat center center / cover;
+    border-radius: 5%;
+
+}
+&::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.sub-header-covers .cover-2{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)),url(../imgs/algeria.jpg) no-repeat center center / cover;
+    border-radius: 5%;
+    
+}
+
+.sub-header-covers .cover-3{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)),url(../imgs/austin.jpg) no-repeat center center / cover;
+    border-radius: 5%;
+}
+
+.sub-header-covers .cover-4{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)),url(../imgs/NY.jpg) no-repeat center center / cover;
+    border-radius: 5%;
+}
+
+.sub-header-covers .cover-text{
+    position: absolute;
+    text-align: center;
+    margin-left: 100px;
+}
+
+
+
+.sub-section-text{
+    max-width: 850px;
+    margin-top: 25px;
+    margin-bottom: 24px;
+    font-size: 24px;
+    justify-content: center;
+
+}
+
+.sub-section-content{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr ;
+    background-color: black;
+    color: white;
+    border-top: solid 2px white;
+    overflow: auto;
+}
+
+.sub-section-content p{
+    margin-top: 50px;
+}
+
+.sub-section-content img{
+    margin-top: 5px;
+}
+
+.img-1{
+    margin-right: 50px;
+    border-radius: 80%;
+}
+
+.img-2{
+    margin-left: 100px;
+    border-radius: 80%;
+    border:white solid 2px;
+}
+
+.btn{
+    text-transform: uppercase;
+    margin-left: 165px;
+    margin-top: px;
+    padding-left: 55px;
+   
+}
+
+.btn a{
+    text-decoration: none;
+    background: none;
+    text-align: center;
+    
+
+ 
+   
+}
+
+
+
+
+
+
+
+
+
+/*About.html css style*/
+
+.about-html{
+    background-color:saddlebrown;
+    color: seagreen;
+}
