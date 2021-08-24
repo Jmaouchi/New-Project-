@@ -12,8 +12,7 @@
   float: right;
   display: flex;
   margin-top: 0;
-  color: white;
-  
+  color: white; 
 }
 
 li a{
@@ -23,12 +22,10 @@ li a{
     padding: 10px;
     margin-right: 30px;
     margin-top: -20px;
-
 }
 
 li a:hover{
     border-bottom: 2px solid mediumaquamarine;
-
 }
 
 .large-text{
@@ -41,7 +38,6 @@ h3{
     color: white;
     padding-top: 20px;
     margin-left: 150px;
-
 }
 
 h1{
@@ -73,7 +69,6 @@ span{
 header{
     background: url(../imgs/cod.jpg) no-repeat center center/ cover;
     color:white;
-    
 }
 
 .header-first{
@@ -167,14 +162,15 @@ header .header-about{
     padding: 90px 40px; /*top/buttom and left/right*/
     background:black;
     color: white;
-
 }
+
 
 .sub-header-covers{
 
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap:20px;
+    max-width: 100;
 }
 
 .sub-header-covers > div {
@@ -189,22 +185,13 @@ header .header-about{
     top: 0;
     left: 0;
     width: 100%;
-    background:black;
-    
+    background:black;    
 }
 
 .sub-header-covers .cover-1{
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)),url(../imgs/alg.jpg) no-repeat center center / cover;
     border-radius: 5%;
 
-}
-&::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
 }
 
 .sub-header-covers .cover-2{
@@ -271,7 +258,6 @@ header .header-about{
 .btn{
     text-transform: uppercase;
     margin-left: 165px;
-    margin-top: px;
     padding-left: 55px;
    
 }
@@ -280,23 +266,32 @@ header .header-about{
     text-decoration: none;
     background: none;
     text-align: center;
+    background:turquoise;
+    width: 50px;
     
-
- 
-   
 }
 
+@media (max-width: 768px){
+    .header-first{
+        width: 50px;
+        text-align: center;
+        padding: 0 20px;
 
+    }
 
+    .header-content{
+        width:20px;
+        text-align: center;
+        align-items: center;
+    }
 
+    .sub-header-covers{
+        grid-template-columns: 1fr;
+        align-items: center;
+        gap: 20px;
+    }
 
-
-
-
-
-/*About.html css style*/
-
-.about-html{
-    background-color:saddlebrown;
-    color: seagreen;
+    .sub-section-content{
+        
+    }
 }
